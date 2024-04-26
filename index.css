@@ -1,0 +1,95 @@
+*{
+  
+    border: border-box;
+}
+body{
+    background-color: rgb(22, 21, 63);
+}
+.content{
+    margin-top: 22%;
+    margin-left: 15%;
+}
+h2{
+    color: white;
+    width: 700px;
+    font-size:3rem;
+    font-family:'Franklin Gothic Medium';
+    /* display: flex; */
+    
+}
+h2:hover{
+    font-size: 4rem;
+    font-weight: 200;
+    transition:linear 1.2s;
+    color: hsl(103, 100%, 68%);
+}
+h2:active{
+    font-size: 4rem;
+    transition:linear 2s;
+    /* transform-style: flat; */
+
+    color: green;
+}
+
+.panel{
+    color: white;
+    display: flex;
+    width:80px;
+    height: 20px;
+    justify-content:space-around;
+    
+
+}
+.fa-solid fa-arrow-right:hover{
+        transition: ease-out 2s;
+}
+.panel a{
+    color: white;
+    text-decoration:none;
+    border-bottom: 2px solid transparent;
+    
+    
+}
+/* .panel a::before{
+    border-bottom: 2px solid green;
+} */
+
+.panel a:hover{
+    color:green;
+     
+    transition: ease 0.5s;
+    border-bottom: 2px dotted white;
+    
+}
+/* .panel:hover{
+    transition: ease 1.4s;
+} */
+
+.links{
+    /* background: none; */
+    color: white;
+    width: 15%;
+    height: 40px;
+    margin-top: 17px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.links .logo{
+    width:35px;
+    height: 35px;
+    margin-left: 0px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: rgb(64, 63, 110); */
+    border-radius: 2.5rem;
+    
+}
+.logo:hover{
+    background-color: hsl(0, 0%, 100%);
+    transition: ease-in-out 0.7s;
+}
